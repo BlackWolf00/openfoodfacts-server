@@ -3,13 +3,13 @@
 
 
 
-< en:Carbon footbrint warnings
+< en:Carbon footprint warnings
 en:Carbon footprint from known ingredients but not from meat or fish
 
-< en:Carbon footbrint warnings
+< en:Carbon footprint warnings
 en:Carbon footprint from known ingredients less than from meat or fish
 
-< en:Carbon footbrint warnings
+< en:Carbon footprint warnings
 en:Carbon footprint from known ingredients more than from meat or fish
 
 < en:Categories warnings
@@ -45,12 +45,14 @@ description:en: Error detected on data
 
 < en:Data quality errors
 en:Nutrition errors
-description:en: Error on nutrition data -nutriments-
+description:en: Error on nutrition data -nutrients-
 fix_action:en: add_nutrition_facts
+marker_type:en: error
 show_on_producers_platform:en: yes
 
 en:Data quality ok tags
 description:en: Positive appreciations on data quality
+marker_type:en: info
 
 < en:Data quality ok tags
 en:Ingredients percent analysis OK
@@ -64,6 +66,7 @@ description:en: The Nutri-Score computations have the same score for the produce
 
 < en:Data quality ok tags
 en:Nutrition data - Prepared
+description:en: We have nutritino data for prepared product
 
 < en:Data quality ok tags
 en:Nutrition Grade FR producer same OK
@@ -76,9 +79,10 @@ en:Packaging data complete
 
 en:Data quality warnings
 description:en: Possible error on data detected. Might be a false alert.
+marker_type:en: warning
 
 < en:Data quality warnings
-en:Carbon footbrint warnings
+en:Carbon footprint warnings
 
 < en:Data quality warnings
 en:Categories warnings
@@ -89,8 +93,8 @@ en:Eco-Score quality warnings
 description:en: Data quality warnings that might affect Eco-Score computation
 
 < en:Data quality warnings
-en:Fiber warnings
-description:en: Their might be an issue with fiber nutriment
+en:Fibers warnings
+description:en: There might be an issue with the fibers nutrient
 fix_action:en: add_nutrition_facts
 
 < en:Data quality warnings
@@ -170,14 +174,14 @@ description:en: No packaging data - Packaging is one of the components of the Ec
 < en:Packaging warnings
 en:Packaging data - incomplete
 
-< en:Fiber warnings
+< en:Fibers warnings
 en:Missing nutrition facts - fibers present on nutrition photos
 
-< en:Fiber warnings
+< en:Fibers warnings
 en:Missing nutrition facts - fibers present on photos
 
 en:Food groups warnings
-description:en: Food groups can't be infered
+description:en: Food groups can't be inferred
 
 < en:Food groups warnings
 en:Food groups 1 known
@@ -1856,20 +1860,14 @@ fr:Nutrition - Sucres plus amidon supérieurs aux glucides
 < en:Nutrition errors
 en:Nutrition value over 1000 - Alcohol
 description:en: Alcohol value is over 1000g per 100g, which is impossible.
-fix_action:en: add_nutrition_facts
-show_on_producers_platform:en: yes
 
 < en:Nutrition errors
 en:Nutrition value over 1000 - Alpha-linolenic acid
 description:en: Alpha-linolenic acid value is over 1000g per 100g, which is impossible.
-fix_action:en: add_nutrition_facts
-show_on_producers_platform:en: yes
 
 < en:Nutrition errors
 en:Nutrition value over 1000 - Arachidic acid
 description:en: Arachidic acid value is over 1000g per 100g, which is impossible.
-fix_action:en: add_nutrition_facts
-show_on_producers_platform:en: yes
 
 < en:Nutrition errors
 en:Nutrition value over 1000 - Arachidonic acid
