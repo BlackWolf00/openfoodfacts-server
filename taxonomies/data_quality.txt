@@ -8,9 +8,10 @@ description:en: Error detected on data
 
 <en:Data quality errors
 en:Nutrition errors
-description:en:Error on nutrition data (nutriments)
+description:en:Error on nutrition data (nutrients)
 show_on_producers_platform:en:yes
 fix_action:en: add_nutrition_facts
+marker_type:en: error
 
 <en:Nutrition errors
 en:Energy value in kcal does not match value computed from other nutrients
@@ -303,7 +304,6 @@ description:en:Water hardness value is over 1000g per 100g, which is impossible.
 en:Nutrition value over 1000 - Zinc
 description:en:Zinc value is over 1000g per 100g, which is impossible.
 
-<en:Nutrition errors
 <en:Nutrition errors
 en:Nutrition value over 105 - Alcohol
 description:en:Alcohol value is over 105g per 100g, which is impossible.
@@ -767,10 +767,11 @@ description:fr:La somme des valeurs nutritionnelles pour 100 g ou 100 ml est sup
 
 en:Data quality warnings
 description:en: Possible error on data detected. Might be a false alert.
+marker_type:en: warning
 
 en:Data quality ok tags
 description:en: Positive appreciations on data quality
-
+marker_type:en: info
 
 ### Eco-Score and packaging
 <en:Data quality warnings
@@ -849,7 +850,7 @@ en:Packaging data complete
 
 <Data quality warnings
 en:Food groups warnings
-description:en: Food groups can't be infered
+description:en: Food groups can't be inferred
 
 <en:Food groups warnings
 en:Food groups 3 unknown
@@ -889,8 +890,8 @@ fix_action:en: add_quantity
 ### Fibers
 
 <en:Data quality warnings
-en:Fiber warnings
-description:en: Their might be an issue with fiber nutriment
+en:Fibers warnings
+description:en: There might be an issue with the fibers nutrient
 fix_action:en: add_nutrition_facts
 
 <en:Fiber warnings
@@ -2803,16 +2804,16 @@ en:Serving size in mg
 ### Carbon footprint
 
 <en:Data quality warnings
-en:Carbon footbrint warnings
+en:Carbon footprint warnings
 
-<en:Carbon footbrint warnings
+<en:Carbon footprint warnings
 en:Carbon footprint from known ingredients but not from meat or fish
 #description:en:
 
-<en:Carbon footbrint warnings
+<en:Carbon footprint warnings
 en:Carbon footprint from known ingredients less than from meat or fish
 #description:en:
 
-<en:Carbon footbrint warnings
+<en:Carbon footprint warnings
 en:Carbon footprint from known ingredients more than from meat or fish
 #description:en:
