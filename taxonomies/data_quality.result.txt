@@ -176,9 +176,11 @@ en:Packaging data - incomplete
 
 < en:Fibers warnings
 en:Missing nutrition facts - fibers present on nutrition photos
+description:en: Fibers are mentioned on nutrition photos, but are not present in the inputed nutrition table
 
 < en:Fibers warnings
 en:Missing nutrition facts - fibers present on photos
+description:en: Fibers are mentioned on photos, but are not present in the inputed nutrition table
 
 en:Food groups warnings
 description:en: Food groups can't be inferred
