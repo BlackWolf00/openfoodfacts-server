@@ -1,5 +1,41 @@
 # Changelog
 
+## [2.7.0](https://github.com/openfoodfacts/openfoodfacts-server/compare/v2.6.0...v2.7.0) (2023-02-14)
+
+
+### Features
+
+* "en:Serving size is missing digits" description ([#8091](https://github.com/openfoodfacts/openfoodfacts-server/issues/8091)) ([99c2113](https://github.com/openfoodfacts/openfoodfacts-server/commit/99c2113007c93062c9edb403fbb4081edd6d76b0))
+* block halal chackib ([#8043](https://github.com/openfoodfacts/openfoodfacts-server/issues/8043)) ([1b31efe](https://github.com/openfoodfacts/openfoodfacts-server/commit/1b31efed5b79f7d476ece0c3d5fca2b89d6466fe)), closes [#6043](https://github.com/openfoodfacts/openfoodfacts-server/issues/6043)
+* download and convert Matomo events data for scanbot ([#8081](https://github.com/openfoodfacts/openfoodfacts-server/issues/8081)) ([0e26425](https://github.com/openfoodfacts/openfoodfacts-server/commit/0e26425d44bda820f77d64ad5f911a6b52f813bc))
+
+
+### Bug Fixes
+
+* more changes for GS1 import through Bayard ([#8068](https://github.com/openfoodfacts/openfoodfacts-server/issues/8068)) ([d913e0c](https://github.com/openfoodfacts/openfoodfacts-server/commit/d913e0c83ee882b12950d6dd8181661c182632ea))
+* redirects for hungergames.openfoodfacts.org ([#8075](https://github.com/openfoodfacts/openfoodfacts-server/issues/8075)) ([d3fe56a](https://github.com/openfoodfacts/openfoodfacts-server/commit/d3fe56a785bbe06f80be8b96160cc769af82c807))
+* remove underlined links in tables/dropdowns ([#8080](https://github.com/openfoodfacts/openfoodfacts-server/issues/8080)) ([fb1712a](https://github.com/openfoodfacts/openfoodfacts-server/commit/fb1712acee400cd9cd9df3a28a9cbbdbc8dc569f))
+* support /api/v0/products (with a s) ([#8087](https://github.com/openfoodfacts/openfoodfacts-server/issues/8087)) ([9196ff1](https://github.com/openfoodfacts/openfoodfacts-server/commit/9196ff1f12daf75ee3d0acc678e4f84edb73a3ba))
+* underline links ([#8079](https://github.com/openfoodfacts/openfoodfacts-server/issues/8079)) ([d4968a6](https://github.com/openfoodfacts/openfoodfacts-server/commit/d4968a6aea770c75d94292dd8302e030b7a9c32f))
+
+
+### Technical
+
+* Make api.yml a valid OpenAPI-3.1.0-Spec ([#8042](https://github.com/openfoodfacts/openfoodfacts-server/issues/8042)) ([8a99b8f](https://github.com/openfoodfacts/openfoodfacts-server/commit/8a99b8fd77549b5b2fb20b17c76c1d754be2d661))
+
+
+### Translations
+
+* New Crowdin translations to review and merge ([#7909](https://github.com/openfoodfacts/openfoodfacts-server/issues/7909)) ([51021c9](https://github.com/openfoodfacts/openfoodfacts-server/commit/51021c90fdd5af2c526f6a692a60fdf57d5538d6))
+
+
+### Taxonomy
+
+* add some structure to data quality ([#8082](https://github.com/openfoodfacts/openfoodfacts-server/issues/8082)) ([824f3df](https://github.com/openfoodfacts/openfoodfacts-server/commit/824f3df4953305a43920b96c0606c9fb86d82ca0))
+* Corrections ([#8063](https://github.com/openfoodfacts/openfoodfacts-server/issues/8063)) ([1571ed7](https://github.com/openfoodfacts/openfoodfacts-server/commit/1571ed7fc8376b7ec04018f0ecdb42f77ca8d138))
+* Croatian ingredients ([#8088](https://github.com/openfoodfacts/openfoodfacts-server/issues/8088)) ([ec086f0](https://github.com/openfoodfacts/openfoodfacts-server/commit/ec086f01a7eb07e7b490a3400abede2359e8a40a))
+* Meat corrections ([#8093](https://github.com/openfoodfacts/openfoodfacts-server/issues/8093)) ([eea81e5](https://github.com/openfoodfacts/openfoodfacts-server/commit/eea81e538a92f7d2dea95c16410ddb1c7d8f7d0d))
+
 ## [2.6.0](https://github.com/openfoodfacts/openfoodfacts-server/compare/v2.5.0...v2.6.0) (2023-02-06)
 
 
