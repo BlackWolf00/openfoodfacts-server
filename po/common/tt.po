@@ -3650,7 +3650,7 @@ msgstr ""
 # abbreviation for Minimum
 msgctxt "min"
 msgid "Min"
-msgstr "мин"
+msgstr "Мин"
 
 # abbreviation for Maximum
 msgctxt "max"

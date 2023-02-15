@@ -2358,7 +2358,7 @@ msgstr ""
 
 msgctxt "sort_popularity"
 msgid "Popularity"
-msgstr ""
+msgstr "عربي"
 
 msgctxt "sort_product_name"
 msgid "Product name"

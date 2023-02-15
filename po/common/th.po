@@ -515,7 +515,7 @@ msgstr ""
 
 msgctxt "donate"
 msgid "Donate to Open Food Facts"
-msgstr "บริจาคให้กับ Open Beauty Facts"
+msgstr ""
 
 msgctxt "donate_link"
 msgid "https://world.openfoodfacts.org/donate-to-open-food-facts"

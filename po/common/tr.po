@@ -1091,11 +1091,11 @@ msgstr "İçindekiler önem sırasına göre listelenir (miktar)."
 
 msgctxt "ingredients_text_example"
 msgid "Cereals 85.5% (_wheat_ flour, whole-_wheat_ flour 11%), malt extract, cocoa 4,8%, ascorbic acid"
-msgstr "Tahıllar% 85.5 (_wheat_ unu, whole-_wheat_ unu% 11), malt özü, kakao% 4,8, askorbik asit"
+msgstr "Tahıllar %85.5 (_wheat_ unu, whole-_wheat_ unu %11), malt özü, kakao %4,8, askorbik asit"
 
 msgctxt "ingredients_text_note"
 msgid "Keep the order, indicate the % when specified, separate with a comma or - , use ( ) for ingredients of an ingredient, surround allergens with _ e.g. _milk_"
-msgstr "Siparişi muhafaza edin, belirtildiğinde% belirtin, virgülle ayrılmış veya -, bir maddenin bileşenleri için () kullanın, allerjenlerinizi örn. _Süt_"
+msgstr "Siparişi muhafaza edin, belirtildiğinde % belirtin, virgülle ayrılmış veya -, bir maddenin bileşenleri için () kullanın, allerjenlerinizi örn. _Süt_"
 
 msgctxt "ingredients_that_may_be_from_palm_oil_p"
 msgid "ingredients that may be from palm oil"
@@ -1464,7 +1464,7 @@ msgstr "besinler"
 
 msgctxt "nutriments_products"
 msgid "Products that contain the nutriment %s"
-msgstr "Besin maddesi içeren ürünler %s"
+msgstr "Besin maddesi içeren ürünler% s"
 
 msgctxt "nutriments_s"
 msgid "nutriment"
@@ -1472,7 +1472,7 @@ msgstr "besin"
 
 msgctxt "nutriments_without_products"
 msgid "Products that do not contain the nutriment %s"
-msgstr "Besin değeri %s içermeyen ürünler"
+msgstr "Besin değeri% s içermeyen ürünler"
 
 msgctxt "nutrition_alt"
 msgid "Nutrition facts"
@@ -1484,11 +1484,11 @@ msgstr "Beslenme gerçekleri"
 
 msgctxt "nutrition_data_average"
 msgid "Average nutrition facts for the %d products of the %s category for which nutrition facts are known (out of %d products)."
-msgstr "Beslenme bilgisinin bulunduğu% s kategorisinin% d ürünleri için ortalama beslenme durumu (% d ürünlerden)."
+msgstr "Beslenme bilgisinin bulunduğu %s kategorisinin %d ürünleri için ortalama beslenme durumu (%d ürünlerden)."
 
 msgctxt "nutrition_data_compare_percent"
 msgid "% of difference"
-msgstr "farkın yüzdesi"
+msgstr ""
 
 msgctxt "nutrition_data_compare_value"
 msgid "value for 100 g / 100 ml"
@@ -1611,7 +1611,7 @@ msgstr "içeriklerin kökeni"
 
 msgctxt "origins_products"
 msgid "Products with ingredients originating from %s"
-msgstr "İçerikleri %s kökenli ürünler"
+msgstr ""
 
 msgctxt "origins_s"
 msgid "origin of ingredients"
@@ -1643,7 +1643,7 @@ msgstr "paketleme"
 
 msgctxt "packaging_products"
 msgid "Products with a %s packaging"
-msgstr "%s ambalajlamalı ürünler"
+msgstr ""
 
 msgctxt "packaging_s"
 msgid "packaging"
@@ -1655,15 +1655,15 @@ msgstr "bir tür, şekil veya malzeme ekle"
 
 msgctxt "packaging_without_products"
 msgid "Products without a %s packaging"
-msgstr "%s ambalajı olmayan ürünler"
+msgstr ""
 
 msgctxt "page_x"
 msgid "Page %d"
-msgstr "%d sayfa"
+msgstr "Sayfa %d"
 
 msgctxt "page_x_out_of_y"
 msgid "Page %d out of %d."
-msgstr "Sayfa %d - %d."
+msgstr ""
 
 msgctxt "pages"
 msgid "Pages:"
@@ -5688,7 +5688,7 @@ msgstr ""
 
 msgctxt "percent_of_ingredients"
 msgid "% of ingredients"
-msgstr "içeriklerin yüzdesi"
+msgstr ""
 
 # medium as in "medium impact"
 msgctxt "medium"

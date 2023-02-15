@@ -5215,7 +5215,7 @@ msgstr ""
 
 msgctxt "abbreviated_product_name_note"
 msgid "Product name with abbreviations shown on receipts"
-msgstr ""
+msgstr "Filet z piersi kurczaka z suszonymi pomidorami i ziołami - Kaufland"
 
 msgctxt "footer_vision"
 msgid "Vision, Mission, Values and Programs"

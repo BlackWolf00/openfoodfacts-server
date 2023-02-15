@@ -1738,11 +1738,11 @@ msgstr "Istnieją %d Odkrywcy i %d Ambasadorów."
 
 msgctxt "points_all_users"
 msgid "There are Explorers for %d countries and Ambassadors for %d countries."
-msgstr "Badacze z %s krajów, Ambasadorzy dla %s krajów."
+msgstr "Badacze z %d krajów, Ambasadorzy dla %d krajów."
 
 msgctxt "points_country"
 msgid "%s has %d Explorers and %d Ambassadors."
-msgstr ""
+msgstr "%s Istnieją %d Odkrywcy i %d Ambasadorów."
 
 msgctxt "points_ranking"
 msgid "Ranking"
