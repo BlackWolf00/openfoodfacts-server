@@ -99,6 +99,7 @@ my @user_groups = qw(producer database app bot moderator pro_moderator);
 
 my $cookie_name = 'session';
 my $cookie_domain = "." . $server_domain;    # e.g. fr.openfoodfacts.org sets the domain to .openfoodfacts.org
+$cookie_domain =~ s/\.pro\./\./;    # e.g. .pro.openfoodfacts.org -> .openfoodfacts.org
 if (defined $server_options{cookie_domain}) {
 	$cookie_domain
 		= "." . $server_options{cookie_domain};    # e.g. fr.import.openfoodfacts.org sets domain to .openfoodfacts.org
@@ -318,7 +319,7 @@ sub check_user_form ($type, $user_ref, $errors_ref) {
 
 	$log->debug("check_user_form", {type => $type, user_ref => $user_ref, email => $email}) if $log->is_debug();
 
-	if ($user_ref->{email} ne $email) {
+	if ((defined $email) and ($email ne '') and ($user_ref->{email} ne $email)) {
 
 		# check that the email is not already used
 		my $emails_ref = retrieve("$data_root/users/users_emails.sto");

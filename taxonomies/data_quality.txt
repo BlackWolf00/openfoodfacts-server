@@ -44,6 +44,9 @@ es:Nutrición: azúcares más almidón más que los carbohidratos
 fr:Nutrition - Sucres plus amidon supérieurs aux glucides
 
 <en:Nutrition errors
+en:Nutrition - Fructose plus glucose plus maltose plus lactose plus sucrose greater than sugars
+
+<en:Nutrition errors
 en:Nutrition Saturated Fat greater than Fat
 fr:Acides gras saturés supérieurs aux matières grasses
 description:en:Saturated Fat is a sub-section of Fat on the nutrition labels, as a result, it should always be smaller than fat.
@@ -944,6 +947,10 @@ description:en:There are 80 percent of ingredients that are unknown, which eithe
 <en:Ingredients warnings
 en:Ingredients - 90 percent unknown
 description:en:There are 90 percent of ingredients that are unknown, which either means that the ingredient list is not stored in the right language (eg a French list stored as an English one), or that the Open Food Facts ingredient taxonomy and parser are not yet working well in your language.
+
+<en:Ingredients warnings
+en:Ingredients - extracted ingredient from picture with more than 100 percent
+description:en:At least one ingredient has a percentage greater than 100% after extracting the ingredients from the picture
 
 <en:Ingredients warnings
 en:Ingredients - Ingredient tag length greater than 100
@@ -2639,6 +2646,10 @@ show_on_producers_platform:en:yes
 <en:Nutri-Score warnings
 en:Nutri-Score score from producer does not match calculated score
 description:en:This might be due among other things to incorrect nutrition values, incomplete nutrition values (missing fiber, fruits and vegetables), incorrect fruits and vegetables estimate, incorrect input of diluted/reconstituted values.
+
+<en:Nutrition warnings
+en:Nutrition 3 or more values are identical
+description:en:Someone may have entered wrong data because there are 3 identical values in nutrition table and those values are above 1
 
 <en:Nutrition warnings
 en:Nutrition all values zero
